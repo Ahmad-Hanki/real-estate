@@ -67,7 +67,7 @@ export const categories = [
   { title: "Others", category: "Others" },
 ];
 
-export const settings = [
+export const settings: { title: string; icon: any }[] = [
   {
     title: "My Bookings",
     icon: icons.calendar,

@@ -10,19 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text className="font-rubik-extrabold">Welcome here</Text>
-      <Link href={"/sign-in"}>
-        <Text>Sign In</Text>
-      </Link>
-      <Link href={"/explore"}>
-        <Text>Explore</Text>
-      </Link>
-      <Link href={"/profile"}>
-        <Text>Profile</Text>
-      </Link>
-      <Link href={{ pathname: "/properties/[id]", params: { id: "1" } }}>
-        <Text>Id</Text>
-      </Link>
+     
     </View>
   );
 }
